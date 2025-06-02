@@ -4,23 +4,42 @@
 To write a C function to perform push and pop operation of the stack in the infix to postfix conversion.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Initialize an empty character stack and a `top` variable as -1.
+2. To push an element, check if the stack is not full, then increment `top` and insert the element.
+3. To pop an element, check if the stack is not empty.
+4. If not empty, return the top element and decrement `top`.
+5. If empty during pop, return -1 to indicate underflow.  
 
 ## Program:
 ```
 /*
 Program to find and display the priority of the operator in the given Postfix expression
-Developed by: 
-RegisterNumber:  
+Developed by: T.RUCHITRA
+RegisterNumber: 212223110043
+#include<stdio.h>
+
+char stack[100];
+int top = -1;
+
+void push(char x)
+{
+   if (top!=100-1){
+       stack[++top]=x;
+   }
+}
+
+char pop()
+{
+   if (top!=-1){
+       return stack[top--];
+   }
+   return -1;
+}
 */
 ```
 
 ## Output:
-
+![intopo](https://github.com/user-attachments/assets/d446336b-971a-4c52-a4da-43d15b07068f)
 
 
 ## Result:
