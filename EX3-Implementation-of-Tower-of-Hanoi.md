@@ -37,8 +37,8 @@ int main()
 ```
 
 ## Output:
+![toh](https://github.com/user-attachments/assets/8b8e9ac3-cecf-4e97-9532-41fe1b7c54b0)
 
-![Output](img/toh.png)
 
 ## Result:
 Thus, the C program to implement Tower of Hanoi using recursion is implemented successfully.
