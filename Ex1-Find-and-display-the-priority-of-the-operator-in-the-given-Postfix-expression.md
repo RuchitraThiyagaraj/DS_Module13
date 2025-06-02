@@ -61,7 +61,7 @@ int main()
 
 ## Output:
 
-![Output](img/pri.png)
+![pri](https://github.com/user-attachments/assets/08a8c9a9-483d-43eb-90e2-163c10ed5a40)
 
 ## Result:
 Thus the C program to find and display the priority of the operator in the given Postfix expression is implemented successfully
